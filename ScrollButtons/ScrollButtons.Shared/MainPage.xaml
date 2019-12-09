@@ -8,72 +8,89 @@
     mc:Ignorable="d">
 
 	<ScrollViewer HorizontalScrollMode="Enabled"
+				  HorizontalScrollBarVisibility="Visible"
 				  VerticalScrollMode="Disabled">
 		<StackPanel Orientation="Horizontal">
 
 			<Button Content="Button 1"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 2"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 3"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 4"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 5"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 6"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 7"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 8"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 9"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 10"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 11"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 12"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 13"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 14"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 15"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 
 			<Button Content="Button 16"
-					Width="100"
-					Height="100"/>
+					Width="313"
+					Height="100"
+					Margin="5"/>
 		</StackPanel>
 	</ScrollViewer>
 </Page>
