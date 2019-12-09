@@ -7,7 +7,73 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="Hello, world !" Margin="20" FontSize="30" />
-    </Grid>
+	<ScrollViewer HorizontalScrollMode="Enabled"
+				  VerticalScrollMode="Disabled">
+		<StackPanel Orientation="Horizontal">
+
+			<Button Content="Button 1"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 2"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 3"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 4"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 5"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 6"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 7"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 8"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 9"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 10"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 11"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 12"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 13"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 14"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 15"
+					Width="100"
+					Height="100"/>
+
+			<Button Content="Button 16"
+					Width="100"
+					Height="100"/>
+		</StackPanel>
+	</ScrollViewer>
 </Page>

@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollButtons.iOS", "Scroll
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollButtons.UWP", "ScrollButtons\ScrollButtons.UWP\ScrollButtons.UWP.csproj", "{17270BD5-102E-452B-A0EE-63C4EDABB46B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollButtons.Wasm", "ScrollButtons\ScrollButtons.Wasm\ScrollButtons.Wasm.csproj", "{46CA7DC4-2CD8-41C8-8CB7-DE23DEF77C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrollButtons.Wasm", "ScrollButtons\ScrollButtons.Wasm\ScrollButtons.Wasm.csproj", "{46CA7DC4-2CD8-41C8-8CB7-DE23DEF77C44}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ScrollButtons\ScrollButtons.Shared\ScrollButtons.Shared.projitems*{17270bd5-102e-452b-a0ee-63c4edabb46b}*SharedItemsImports = 4
+		ScrollButtons\ScrollButtons.Shared\ScrollButtons.Shared.projitems*{2843c296-3db6-4adf-b92b-c5354b18cd85}*SharedItemsImports = 4
 		ScrollButtons\ScrollButtons.Shared\ScrollButtons.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		ScrollButtons\ScrollButtons.Shared\ScrollButtons.Shared.projitems*{9d53463e-fd52-4908-8bb6-38cf817501d0}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
