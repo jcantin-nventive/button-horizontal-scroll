@@ -13,93 +13,99 @@
 	<ListView ItemsSource="{Binding MyItems}">
 		<ListView.ItemTemplate>
 			<DataTemplate>
-				<ScrollViewer HorizontalScrollMode="Enabled"
-							  HorizontalScrollBarVisibility="Visible"
-							  VerticalScrollMode="Disabled"
-							  VerticalScrollBarVisibility="Disabled">
-					<StackPanel Orientation="Horizontal">
+				<Border Height="500"
+						Background="Green"
+						BorderBrush="Black"
+						BorderThickness="2"
+						Margin="5">
+					<ScrollViewer HorizontalScrollMode="Enabled"
+								  HorizontalScrollBarVisibility="Visible"
+								  VerticalScrollMode="Disabled"
+								  VerticalScrollBarVisibility="Disabled">
+						<StackPanel Orientation="Horizontal">
 
-						<Button Content="Button 1"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #1"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 2"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #2"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 3"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #3"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 4"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #4"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 5"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #5"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 6"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #6"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 7"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #7"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 8"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #8"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 9"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #9"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 10"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #10"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 11"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #11"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 12"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #12"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 13"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #13"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 14"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #14"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 15"
-								Width="313"
-								Height="100"
-								Margin="5" />
+							<TextBlock Text="Item #15"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
 
-						<Button Content="Button 16"
-								Width="313"
-								Height="100"
-								Margin="5" />
-					</StackPanel>
-				</ScrollViewer>
+							<TextBlock Text="Item #16"
+									   Width="313"
+									   Height="100"
+									   Margin="5" />
+						</StackPanel>
+					</ScrollViewer>
+				</Border>
 			</DataTemplate>
 		</ListView.ItemTemplate>
 	</ListView>
